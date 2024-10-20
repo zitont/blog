@@ -1,8 +1,10 @@
 import { navbar } from "vuepress-theme-hope";
 
+
 export default navbar([
   "/",
   "/demo/",
+  "/config/config.md",
   {
     text: "博文",
     icon: "pen-to-square",
