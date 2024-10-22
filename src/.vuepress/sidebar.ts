@@ -19,38 +19,39 @@ export default sidebar({
   ],
   "/config/": [
     {
+      text: "环境-配置使用",
+      icon: "code",
+      prefix: "config.md",
+      link: "config.md",
+    },
+    {
       text: "node.js-配置使用",
+      icon: "nodejs",
+      prefix: "node/",
       collapsible: true,
-        // 可选的。设置分组是否默认展开，默认值是 false
-      expanded: false,
-        // 必要的，分组的子项目
-      icon: "laptop-code",
-     prefix: "node/",
-      children: [
-        "1.md",
-        "2.md",
-        "3.md"
-      ],
+      children: "structure",
     },
     {
       text: "c-配置使用",
-      collapsible: true,
-        // 可选的。设置分组是否默认展开，默认值是 false
-      expanded: false,
-        // 必要的，分组的子项目
-      icon: "laptop-code",
+      icon: "code",
       prefix: "c/",
-      children: [
-        "1.md",
-        "2.md"
-      ],
+      collapsible: true,
+      children: "structure",
     },
-
-  ]
+    {
+      text: "java-配置使用",
+      icon: "code",
+      prefix: "java/",
+      collapsible: true,
+      children: "structure",
+    },
+  ],
+  "/posts/": [
+    {
+      text: "文章",
+      icon: "book",
+      prefix: "posts/",
+      children: "structure",
+    },
+  ],
 });
-// {
-//   text: "文章",
-//   icon: "book",
-//   prefix: "posts/",
-//   children: "structure",
-// },

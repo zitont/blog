@@ -7,8 +7,8 @@ export default defineUserConfig({
   base: "/blog/",
 
   lang: "zh-CN",
-  title: "博客演示",
-  description: "zitont的博客演示",
+  title: "zitont的博客",
+  description: "zitont的博客",
 
   theme,
 
